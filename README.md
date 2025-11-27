@@ -37,7 +37,6 @@ We are using large datasets from [Inside Airbnb](http://insideairbnb.com/get-the
    ```
 
 ## 5. Team Members
-- Talha Ubeydullah Gamga
-- Aziz Önder
-- Buğra Bildiren
 - Muhammed Fatih Asan
+- Ömer
+- Emircan
