@@ -1,2 +1,27 @@
 # macOS
 .DS_Store
+
+# Python/Jupyter cache
+__pycache__/
+.ipynb_checkpoints/
+
+# Virtual environments and environment files
+venv/
+.env
+
+# IDE/editor settings
+.vscode/
+.idea/
+
+# Data files (keep folder structure via .gitkeep)
+data/*
+!data/**/.gitkeep
+*.csv
+*.gz
+*.zip
+*.parquet
+
+# Model artifacts
+*.pkl
+*.h5
+*.joblib
