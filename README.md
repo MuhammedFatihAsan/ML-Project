@@ -11,11 +11,7 @@ We are using large datasets from [Inside Airbnb](http://insideairbnb.com/get-the
 **GitHub does not store the data files.** You must download them manually.
 
 **Instructions for Team Members:**
-1. Check the group chat/docs for the specific City and Date version we agreed on.
-2. Download `listings.csv.gz` and `reviews.csv.gz`.
-3. Place them into the `data/raw/` folder.
-4. **DO NOT UNZIP** (scripts will handle compressed files).
-5. **DO NOT PUSH** any CSV files to GitHub.
+
 
 ## 3. Directory Structure
 ### 📂 Project Directory Structure
