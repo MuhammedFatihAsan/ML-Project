@@ -60,3 +60,6 @@ statsmodels>=0.14.0
 
 # Model Persistence
 cloudpickle>=2.2.0
+
+# Notebook Version Control
+nbstripout>=0.6.1
