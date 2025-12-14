@@ -24,7 +24,6 @@ catboost>=1.2.0
 
 # Natural Language Processing
 nltk>=3.8
-spacy>=3.5.0
 textblob>=0.17.0
 wordcloud>=1.9.0
 
@@ -61,3 +60,6 @@ statsmodels>=0.14.0
 
 # Model Persistence
 cloudpickle>=2.2.0
+
+# Notebook Version Control
+nbstripout>=0.6.1
