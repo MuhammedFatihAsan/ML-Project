@@ -160,7 +160,13 @@ mkdir -p data/raw data/processed data/external notebooks/week1 notebooks/week2 n
 pip install -r requirements.txt
 ```
 
-**5. Create your branch:**
+**5. 🔧 Configure Notebook Git Filters (Crucial!):**
+To prevent merge conflicts caused by Jupyter Notebook outputs and metadata, **you must run this command once** after installing requirements:
+```bash
+nbstripout --install
+```
+
+**6. Create your branch:**
 ```bash
 git checkout -b week1-omer  # or week1-fatih, week1-emircan
 ```
