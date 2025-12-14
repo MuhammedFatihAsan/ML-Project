@@ -161,7 +161,9 @@ pip install -r requirements.txt
 ```
 
 **5. 🔧 Configure Notebook Git Filters (Crucial!):**
-To prevent merge conflicts caused by Jupyter Notebook outputs and metadata, **you must run this command once** after installing requirements:
+To prevent merge conflicts caused by Jupyter Notebook outputs and metadata, **you must run this command once** after installing requirements.
+
+*(Make sure your virtual environment is activated before running this command)*:
 ```bash
 nbstripout --install
 ```
