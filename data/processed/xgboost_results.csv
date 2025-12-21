@@ -1,0 +1,2 @@
+model,train_accuracy,test_accuracy,precision_macro,recall_macro,f1_macro
+XGBoost,1.0,0.9947275922671354,0.9947582103250124,0.9947495137051826,0.9947531916150738
