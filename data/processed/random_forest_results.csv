@@ -1,0 +1,2 @@
+model,train_accuracy,test_accuracy,precision_macro,recall_macro,f1_macro
+Random Forest,0.9905832130077218,0.9711272909866935,0.9714395858749972,0.9712568404222854,0.9712515315660241
