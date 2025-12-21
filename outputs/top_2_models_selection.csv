@@ -1,0 +1,3 @@
+Model,Accuracy,F1-Score (Weighted),Precision (Weighted),Recall (Weighted)
+XGBoost,0.9947,0.9947,0.9947,0.9947
+Logistic Regression,0.99,0.99,0.99,0.99
