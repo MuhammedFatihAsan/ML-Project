@@ -1,0 +1,2 @@
+model,train_accuracy,test_accuracy,precision_macro,recall_macro,f1_macro
+Logistic Regression,0.9930943562056627,0.9899573186040673,0.9900985549290633,0.9899680047028782,0.9900147117931987
