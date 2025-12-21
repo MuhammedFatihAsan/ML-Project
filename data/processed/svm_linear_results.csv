@@ -1,0 +1,2 @@
+model,kernel,C,gamma,train_accuracy,test_accuracy,precision_macro,recall_macro,f1_macro,training_time,n_support_vectors
+SVM_Linear,linear,1.0,N/A,0.9323874693954423,0.9327140346472508,0.9338664332727706,0.9330197457225714,0.933080827541294,0.6161830425262451,1256
