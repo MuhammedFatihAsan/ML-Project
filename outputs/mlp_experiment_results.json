@@ -9,49 +9,49 @@
     {
       "config": "(50,)",
       "accuracy": 0.9831785086618127,
-      "training_time": 13.920902252197266,
+      "training_time": 16.08478593826294,
       "n_iter": 193,
       "final_loss": 0.0022632703712653596
     },
     {
       "config": "(100,)",
       "accuracy": 0.9816721064524228,
-      "training_time": 12.516989946365356,
+      "training_time": 21.648763179779053,
       "n_iter": 176,
       "final_loss": 0.001643250263596444
     },
     {
       "config": "(50, 50)",
       "accuracy": 0.9794125031383379,
-      "training_time": 8.373816967010498,
+      "training_time": 11.183857202529907,
       "n_iter": 86,
       "final_loss": 0.03719463402111832
     },
     {
       "config": "(100, 50)",
       "accuracy": 0.9784082349987446,
-      "training_time": 11.741395950317383,
+      "training_time": 18.880622148513794,
       "n_iter": 80,
       "final_loss": 0.004146783946713769
     },
     {
       "config": "(100, 100)",
       "accuracy": 0.9776550338940497,
-      "training_time": 10.18248176574707,
+      "training_time": 19.497809886932373,
       "n_iter": 59,
       "final_loss": 0.001965513366855967
     },
     {
       "config": "(100, 50, 25)",
       "accuracy": 0.9713783580215918,
-      "training_time": 11.059627056121826,
+      "training_time": 16.824963808059692,
       "n_iter": 51,
       "final_loss": 0.017340541245044683
     },
     {
       "config": "(150, 100, 50)",
       "accuracy": 0.9718804920913884,
-      "training_time": 15.628513097763062,
+      "training_time": 26.947057008743286,
       "n_iter": 64,
       "final_loss": 0.00762008629056933
     }
@@ -60,21 +60,21 @@
     {
       "activation": "relu",
       "accuracy": 0.9784082349987446,
-      "training_time": 12.299213171005249,
+      "training_time": 15.666540622711182,
       "n_iter": 80,
       "final_loss": 0.004146783946713769
     },
     {
       "activation": "tanh",
       "accuracy": 0.9829274416269144,
-      "training_time": 14.270685911178589,
+      "training_time": 20.582938194274902,
       "n_iter": 101,
       "final_loss": 0.0019019382040617319
     },
     {
       "activation": "logistic",
       "accuracy": 0.9904594526738639,
-      "training_time": 20.226139783859253,
+      "training_time": 25.016730785369873,
       "n_iter": 147,
       "final_loss": 0.005151508640051114
     }
@@ -83,28 +83,28 @@
     {
       "learning_rate": 0.0001,
       "accuracy": 0.9801657042430328,
-      "training_time": 25.866854190826416,
+      "training_time": 30.929347038269043,
       "n_iter": 216,
       "final_loss": 0.0028742666190783818
     },
     {
       "learning_rate": 0.001,
       "accuracy": 0.9784082349987446,
-      "training_time": 13.29176115989685,
+      "training_time": 11.671977996826172,
       "n_iter": 80,
       "final_loss": 0.004146783946713769
     },
     {
       "learning_rate": 0.01,
       "accuracy": 0.9786593020336429,
-      "training_time": 9.289182186126709,
+      "training_time": 18.805080890655518,
       "n_iter": 67,
       "final_loss": 0.009620815960722732
     },
     {
       "learning_rate": 0.1,
       "accuracy": 0.5021340697966357,
-      "training_time": 2.486030101776123,
+      "training_time": 1.7527999877929688,
       "n_iter": 17,
       "final_loss": 0.8956633758535497
     }
