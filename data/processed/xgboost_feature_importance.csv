@@ -1,63 +1,63 @@
 feature,importance
-beds,0.25896072
-price,0.20510203
-accommodates,0.114399545
-price_per_person,0.09122967
-availability_rate,0.060380485
-estimated_revenue_l365d,0.033001654
-bedrooms,0.029821057
-availability_365,0.02478776
-review_scores_rating,0.024556382
-estimated_occupancy_l365d,0.021977054
-avg_review_score,0.019739633
-review_scores_accuracy,0.018828591
-bathrooms_numeric,0.011393363
-host_listings_count,0.007867438
-review_scores_value,0.0072849263
-room_type_Private room,0.0064993547
-calculated_host_listings_count_private_rooms,0.004522943
-review_scores_communication,0.00424184
-room_type_Hotel room,0.003990554
-number_of_reviews_ltm,0.003428851
-minimum_nights,0.002851542
-host_total_listings_count,0.0027397515
-longitude,0.0026184025
-minimum_nights_avg_ntm,0.0021871668
-review_scores_cleanliness,0.0020939284
-host_has_profile_pic,0.002061848
-minimum_maximum_nights,0.0019712464
-review_scores_checkin,0.0019043271
-review_scores_location,0.0018392587
-host_response_rate,0.0017868929
-host_acceptance_rate,0.0017561428
-availability_90,0.0012577049
-availability_30,0.0012497604
-host_years,0.0012486847
-days_since_first_review,0.0012387068
-maximum_nights,0.0011854484
-number_of_reviews_ly,0.0011750924
-minimum_minimum_nights,0.0011573797
-number_of_reviews,0.0011213344
-latitude,0.0011141667
-maximum_minimum_nights,0.0011060624
-maximum_nights_avg_ntm,0.0011029236
-host_identity_verified,0.0010866675
-number_of_reviews_l30d,0.001054193
-maximum_maximum_nights,0.001043509
-reviews_per_month,0.0009956778
-calculated_host_listings_count_entire_homes,0.000984069
-calculated_host_listings_count,0.00096719695
-availability_60,0.00096129434
-days_since_last_review,0.0009549534
-host_is_superhost,0.0009302173
-availability_eoy,0.0007707733
-host_response_time_within a few hours,0.00075865374
-instant_bookable,0.00040395063
-host_response_time_within an hour,0.00030715394
-has_availability,0.0
-has_reviews,0.0
-host_response_time_within a day,0.0
-"neighbourhood_Tijuana, Baja California, Mexico",0.0
+beds,0.32763258
+price,0.28187788
+accommodates,0.07478532
+price_per_person,0.06763056
+review_scores_rating,0.03266992
+estimated_revenue_l365d,0.02491158
+avg_review_score,0.020646742
+bathrooms_numeric,0.018806452
+availability_365,0.017022308
+estimated_occupancy_l365d,0.01328902
+bedrooms,0.012459134
+calculated_host_listings_count,0.012241546
+review_scores_value,0.009737249
+review_scores_accuracy,0.008260741
+review_scores_cleanliness,0.005278081
+review_scores_communication,0.004684824
+room_type_Private room,0.004076577
+room_type_Hotel room,0.0034856747
+review_scores_checkin,0.0032524588
+minimum_maximum_nights,0.0027107776
+calculated_host_listings_count_private_rooms,0.0024977056
+longitude,0.0023863574
+host_response_rate,0.0021085315
+number_of_reviews,0.0020909002
+minimum_nights,0.0020049326
+host_has_profile_pic,0.0019884591
+availability_60,0.0018488176
+minimum_nights_avg_ntm,0.0017881154
+instant_bookable,0.00178241
+host_listings_count,0.0017614523
+maximum_nights_avg_ntm,0.001743741
+number_of_reviews_ly,0.0017000142
+maximum_maximum_nights,0.0016731435
+review_scores_location,0.001626871
+host_acceptance_rate,0.0016111892
+host_total_listings_count,0.0016013474
+number_of_reviews_l30d,0.0014974056
+availability_90,0.0014865708
+host_is_superhost,0.0014594344
+days_since_first_review,0.001457142
+minimum_minimum_nights,0.0014320816
+reviews_per_month,0.0014122298
+host_response_time_within a few hours,0.0013777437
+maximum_nights,0.0011618419
+days_since_last_review,0.0011611697
+host_years,0.0011472171
+latitude,0.0011268372
+host_response_time_within a day,0.0011228935
+calculated_host_listings_count_entire_homes,0.0011035416
+host_identity_verified,0.0010909494
+number_of_reviews_ltm,0.0010757509
+availability_eoy,0.0010523428
+availability_rate,0.0010144339
+availability_30,0.0009834829
+maximum_minimum_nights,0.00093710364
+host_response_time_within an hour,0.00074006274
+has_reviews,0.00048639436
 calculated_host_listings_count_shared_rooms,0.0
+has_availability,0.0
+"neighbourhood_Tijuana, Baja California, Mexico",0.0
 room_type_Shared room,0.0
 city_San Francisco,0.0

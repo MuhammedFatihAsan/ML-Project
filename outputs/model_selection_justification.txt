@@ -6,10 +6,10 @@ DETAILED JUSTIFICATION FOR TOP 2 MODEL SELECTION
 --------------------------------------------------
 
 Performance Summary:
-  â€¢ Accuracy: 0.9947 (99.47%)
-  â€¢ F1-Score: 0.9947
-  â€¢ Precision: 0.9947
-  â€¢ Recall: 0.9947
+  • Accuracy: 0.9940 (99.40%)
+  • F1-Score: 0.9940
+  • Precision: 0.9940
+  • Recall: 0.9940
 
 Justification:
   1. Achieved the HIGHEST F1-Score among all models, indicating the best
@@ -23,10 +23,10 @@ Justification:
 --------------------------------------------------
 
 Performance Summary:
-  â€¢ Accuracy: 0.9900 (99.00%)
-  â€¢ F1-Score: 0.9900
-  â€¢ Precision: 0.9900
-  â€¢ Recall: 0.9900
+  • Accuracy: 0.9902 (99.02%)
+  • F1-Score: 0.9902
+  • Precision: 0.9903
+  • Recall: 0.9902
 
 Justification:
   1. Second-best F1-Score, demonstrating strong classification capability.
@@ -39,8 +39,8 @@ Justification:
 COMPARATIVE ANALYSIS:
 --------------------------------------------------
 
-F1-Score Difference: 0.0047
-Accuracy Difference: 0.0047
+F1-Score Difference: 0.0038
+Accuracy Difference: 0.0038
 
 Both models significantly outperform the baseline and demonstrate
 strong generalization on the test set for Airbnb price classification.
