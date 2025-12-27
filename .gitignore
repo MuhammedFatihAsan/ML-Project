@@ -31,17 +31,6 @@ wheels/
 .vscode/
 *.code-workspace
 
-# Data files (large files)
-# data/raw/*.csv
-# data/processed/*.csv
-
-# Model files (large files)
-*.pkl
-*.h5
-*.pt
-*.pth
-outputs/models/*.pkl
-
 # OS
 .DS_Store
 Thumbs.db
