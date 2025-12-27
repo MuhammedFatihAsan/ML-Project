@@ -1,5 +1,5 @@
-Variable,Original_Cardinality,Encoding_Method,Columns_Created,Total_Columns
-room_type,4,One-Hot,4,4
-property_type,66,Label + Frequency,2,2
-neighbourhood,138,Target + Frequency + Label,3,3
-value_category,3,Label (Ordinal),1,1
+Variable,Original_Cardinality,Encoding_Method,Columns_Created
+room_type,4,One-Hot,4
+property_type,66,Label + Frequency,2
+neighbourhood,138,Target + Frequency + Label,3
+value_category,3,Label (Ordinal),1
