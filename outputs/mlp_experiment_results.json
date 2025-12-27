@@ -1,125 +1,125 @@
 {
   "task": "T2.5 - Neural Network (MLP Classifier)",
   "baseline": {
-    "accuracy": 0.3304042179261863,
-    "iterations": 13,
-    "final_loss": 23.854983375216904
+    "accuracy": 0.7120261109716294,
+    "iterations": 408,
+    "final_loss": 0.3720553909815356
   },
   "experiment_1_hidden_layers": [
     {
       "config": "(50,)",
-      "accuracy": 0.330153150891288,
-      "training_time": 0.4949982166290283,
-      "n_iter": 21,
-      "final_loss": 24.09994584270984
+      "accuracy": 0.714034647250816,
+      "training_time": 19.884550094604492,
+      "n_iter": 359,
+      "final_loss": 0.4818587981147033
     },
     {
       "config": "(100,)",
-      "accuracy": 0.3304042179261863,
-      "training_time": 0.3599979877471924,
-      "n_iter": 13,
-      "final_loss": 23.854983375216904
+      "accuracy": 0.7120261109716294,
+      "training_time": 25.4497127532959,
+      "n_iter": 408,
+      "final_loss": 0.3720553909815356
     },
     {
       "config": "(50, 50)",
-      "accuracy": 0.34019583228722067,
-      "training_time": 0.8329992294311523,
-      "n_iter": 16,
-      "final_loss": 23.94613066282464
+      "accuracy": 0.6851619382375094,
+      "training_time": 34.09472632408142,
+      "n_iter": 370,
+      "final_loss": 0.2977955414738959
     },
     {
       "config": "(100, 50)",
-      "accuracy": 0.32990208385638964,
-      "training_time": 1.7909934520721436,
-      "n_iter": 29,
-      "final_loss": 23.85727348800197
+      "accuracy": 0.6743660557368818,
+      "training_time": 33.63902497291565,
+      "n_iter": 293,
+      "final_loss": 0.13775975602592835
     },
     {
       "config": "(100, 100)",
-      "accuracy": 0.32990208385638964,
-      "training_time": 1.2099947929382324,
-      "n_iter": 15,
-      "final_loss": 24.028126686905114
+      "accuracy": 0.6844087371328145,
+      "training_time": 32.10046195983887,
+      "n_iter": 255,
+      "final_loss": 0.06907327090973328
     },
     {
       "config": "(100, 50, 25)",
-      "accuracy": 0.32990208385638964,
-      "training_time": 1.1309995651245117,
-      "n_iter": 16,
-      "final_loss": 23.94936640950515
+      "accuracy": 0.6856640723073061,
+      "training_time": 29.059147834777832,
+      "n_iter": 236,
+      "final_loss": 0.10174924100960128
     },
     {
       "config": "(150, 100, 50)",
-      "accuracy": 0.32990208385638964,
-      "training_time": 1.693993091583252,
-      "n_iter": 14,
-      "final_loss": 23.865577626778315
+      "accuracy": 0.680140597539543,
+      "training_time": 22.42911696434021,
+      "n_iter": 106,
+      "final_loss": 0.16440047809214509
     }
   ],
   "experiment_2_activation": [
     {
       "activation": "relu",
-      "accuracy": 0.32990208385638964,
-      "training_time": 1.7829983234405518,
-      "n_iter": 29,
-      "final_loss": 23.85727348800197
+      "accuracy": 0.6743660557368818,
+      "training_time": 40.15909695625305,
+      "n_iter": 293,
+      "final_loss": 0.13775975602592835
     },
     {
       "activation": "tanh",
-      "accuracy": 0.34019583228722067,
-      "training_time": 1.5429999828338623,
-      "n_iter": 23,
-      "final_loss": 1.0994470033484605
+      "accuracy": 0.6844087371328145,
+      "training_time": 46.852322816848755,
+      "n_iter": 468,
+      "final_loss": 0.014152692200815786
     },
     {
       "activation": "logistic",
-      "accuracy": 0.34019583228722067,
-      "training_time": 2.381005048751831,
-      "n_iter": 23,
-      "final_loss": 1.099139476313136
+      "accuracy": 0.6949535525985439,
+      "training_time": 55.07559013366699,
+      "n_iter": 500,
+      "final_loss": 0.28162818818968083
     }
   ],
   "experiment_3_learning_rate": [
     {
       "learning_rate": 0.0001,
-      "accuracy": 0.34019583228722067,
-      "training_time": 1.3930025100708008,
-      "n_iter": 22,
-      "final_loss": 24.09424756452772
+      "accuracy": 0.7117750439367311,
+      "training_time": 44.38580107688904,
+      "n_iter": 500,
+      "final_loss": 0.3885306898506636
     },
     {
       "learning_rate": 0.001,
-      "accuracy": 0.32990208385638964,
-      "training_time": 1.8120009899139404,
-      "n_iter": 29,
-      "final_loss": 23.85727348800197
+      "accuracy": 0.6743660557368818,
+      "training_time": 30.786521911621094,
+      "n_iter": 293,
+      "final_loss": 0.13775975602592835
     },
     {
       "learning_rate": 0.01,
-      "accuracy": 0.34019583228722067,
-      "training_time": 0.992995023727417,
-      "n_iter": 17,
-      "final_loss": 1.0986634895393357
+      "accuracy": 0.6866683404468993,
+      "training_time": 13.822962999343872,
+      "n_iter": 137,
+      "final_loss": 0.25345735010802617
     },
     {
       "learning_rate": 0.1,
-      "accuracy": 0.34019583228722067,
-      "training_time": 0.7330000400543213,
-      "n_iter": 13,
-      "final_loss": 1.1031161030517034
+      "accuracy": 0.5684157670097916,
+      "training_time": 2.1699862480163574,
+      "n_iter": 23,
+      "final_loss": 0.8297027876856372
     }
   ],
   "best_model": {
     "parameters": {
       "activation": "relu",
-      "alpha": 0.0001,
+      "alpha": 0.001,
       "batch_size": 32,
-      "hidden_layer_sizes": "(100, 100)",
+      "hidden_layer_sizes": "(150, 100, 50)",
       "learning_rate_init": 0.001
     },
-    "cv_accuracy": 0.3799412263819043,
-    "test_accuracy": 0.3414511674617123,
-    "improvement_over_baseline": 1.1046949535525985
+    "cv_accuracy": 0.7258454324798149,
+    "test_accuracy": 0.729098669344715,
+    "improvement_over_baseline": 1.7072558373085633
   },
   "note": "ROC-AUC, PR curves and confusion matrices will be generated by Emircan (Member 3) in Task 2.16 and Task 2.17"
 }
