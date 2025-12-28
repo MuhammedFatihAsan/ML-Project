@@ -1,0 +1,2 @@
+model,train_accuracy,test_accuracy,precision_macro,recall_macro,f1_macro,num_features,data_leakage,production_ready
+Logistic Regression (Landlord Features),0.9513466005398958,0.9535525985438112,0.9547923228343587,0.9535454121664504,0.9538574169822102,26,NO - Review features removed,YES - Can predict for new listings

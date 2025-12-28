@@ -1,58 +1,27 @@
 feature,importance
-beds,0.11799166
-has_reviews,0.08155478
-bedrooms,0.050421838
-bathrooms_numeric,0.042678062
-availability_365,0.0407983
-accommodates,0.034514688
-room_type_Hotel room,0.025776831
-city_San Francisco,0.02452952
-room_type_Private room,0.022864573
-calculated_host_listings_count_private_rooms,0.021706503
-availability_rate,0.021532038
-calculated_host_listings_count,0.020403048
-estimated_occupancy_l365d,0.020080844
-host_listings_count,0.019660648
-longitude,0.019446323
-minimum_nights_avg_ntm,0.019324997
-host_total_listings_count,0.016791953
-maximum_minimum_nights,0.0155824
-minimum_minimum_nights,0.015445475
-room_type_Shared room,0.015060696
-calculated_host_listings_count_entire_homes,0.014031356
-avg_review_score,0.013985889
-review_scores_location,0.013654252
-latitude,0.0132130515
-availability_eoy,0.012712349
-minimum_maximum_nights,0.012292421
-maximum_maximum_nights,0.012277069
-review_scores_cleanliness,0.011790207
-instant_bookable,0.011607289
-maximum_nights_avg_ntm,0.011243193
-review_scores_accuracy,0.010966259
-review_scores_communication,0.010813357
-calculated_host_listings_count_shared_rooms,0.010690462
-minimum_nights,0.010461058
-reviews_per_month,0.010202387
-host_years,0.009805855
-number_of_reviews,0.009746151
-number_of_reviews_l30d,0.009331982
-host_response_time_within a day,0.009187676
-number_of_reviews_ltm,0.009147367
-availability_90,0.009049133
-host_has_profile_pic,0.009039333
-host_is_superhost,0.008993853
-availability_60,0.008905726
-maximum_nights,0.008773256
-availability_30,0.00869221
-host_acceptance_rate,0.00864234
-days_since_first_review,0.008470023
-review_scores_checkin,0.00826425
-host_response_rate,0.00823044
-days_since_last_review,0.008137651
-host_response_time_within a few hours,0.0081000645
-number_of_reviews_ly,0.007936603
-host_response_time_within an hour,0.007888311
-host_identity_verified,0.007551986
-has_availability,0.0
-"neighbourhood_Tijuana, Baja California, Mexico",0.0
+price,0.53741366
+bedrooms,0.09625822
+price_per_bathroom,0.06998834
+beds,0.053183854
+price_per_bedroom,0.022422958
+host_is_superhost,0.02107694
+availability_365,0.019674407
+accommodates,0.016852656
+instant_bookable,0.012715579
+minimum_nights,0.011161094
+space_efficiency,0.01113345
+neighbourhood_frequency,0.010301172
+property_type_label,0.010109329
+availability_90,0.009551258
+host_identity_verified,0.009468964
+host_response_rate,0.009373903
+maximum_nights,0.009331638
+room_type_Private room,0.009098381
+longitude,0.008820286
+availability_30,0.008813685
+property_type_frequency,0.008700879
+availability_60,0.008668172
+latitude,0.008536761
+neighbourhood_label,0.0084511405
+room_type_Entire home/apt,0.008327405
+room_type_Shared room,0.00056583004

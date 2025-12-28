@@ -1,0 +1,6 @@
+Model,Training Accuracy,Testing Accuracy,F1-Score (Macro),Precision (Macro),Recall (Macro),Train-Test Gap
+XGBoost,0.99,0.9551,0.9553,0.9565,0.9551,0.0349
+Random Forest,0.964,0.9536,0.9538,0.9553,0.9535,0.0104
+MLP Classifier,0.9508,0.9498,0.95,0.95,0.95,0.001
+Logistic Regression,0.9513,0.9536,0.9539,0.9548,0.9535,-0.0022
+SVM (RBF),0.9622,0.9282,0.9286,0.929,0.9284,0.034

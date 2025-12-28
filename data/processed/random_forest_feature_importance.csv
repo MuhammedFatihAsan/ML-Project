@@ -1,58 +1,27 @@
 feature,importance
-beds,0.1111850235390406
-bedrooms,0.07591407877144263
-accommodates,0.054857498554318374
-availability_365,0.05483358151375819
-availability_rate,0.05265073767815532
-bathrooms_numeric,0.04301048220893281
-longitude,0.042523985939884594
-latitude,0.0370414729864182
-availability_eoy,0.029371009384699012
-host_listings_count,0.024561238589561205
-availability_90,0.024465684401649476
-host_total_listings_count,0.022102928084637
-host_years,0.02015139884379204
-calculated_host_listings_count_entire_homes,0.019482164081630587
-avg_review_score,0.019472490341266156
-review_scores_location,0.01911034044474806
-calculated_host_listings_count,0.01872801686649898
-estimated_occupancy_l365d,0.017927418487766033
-availability_60,0.017572313395514638
-calculated_host_listings_count_private_rooms,0.017027466953655444
-number_of_reviews,0.01663094938590991
-reviews_per_month,0.016415194095812026
-minimum_nights_avg_ntm,0.016291067490265966
-availability_30,0.014738757274368335
-days_since_last_review,0.01450450844744156
-review_scores_accuracy,0.014269214425922137
-days_since_first_review,0.014081518502652293
-room_type_Private room,0.013976727770717089
-review_scores_cleanliness,0.013922356150681194
-number_of_reviews_ltm,0.012263141880169274
-maximum_minimum_nights,0.01215927514897658
-review_scores_communication,0.011326002980724776
-host_acceptance_rate,0.011306493633432382
-review_scores_checkin,0.010173034312561377
-maximum_nights,0.010074222327462816
-number_of_reviews_ly,0.009996300975976558
-minimum_minimum_nights,0.009357231904308906
-minimum_nights,0.009340364397092508
-maximum_maximum_nights,0.007280064608691389
-minimum_maximum_nights,0.006720476306273628
-maximum_nights_avg_ntm,0.00666967027472786
-number_of_reviews_l30d,0.00463402406481745
-instant_bookable,0.004338254333383023
-city_San Francisco,0.003986255528538561
-host_response_rate,0.00266856000560575
-host_is_superhost,0.0021179077387834724
-room_type_Hotel room,0.0020076622918168735
-has_reviews,0.0016222020133653807
-host_response_time_within an hour,0.0014401451433137774
-host_identity_verified,0.001286901951285934
-host_response_time_within a few hours,0.0009922280439863711
-host_response_time_within a day,0.0006080075831056938
-calculated_host_listings_count_shared_rooms,0.0002979735084497652
-room_type_Shared room,0.00028578995943649114
-host_has_profile_pic,0.00022818447257356655
-has_availability,0.0
-"neighbourhood_Tijuana, Baja California, Mexico",0.0
+price,0.41482790177652007
+price_per_bathroom,0.16212177327236485
+price_per_bedroom,0.12861573677349664
+beds,0.06422334336673763
+bedrooms,0.0610734666402734
+accommodates,0.039372062895476734
+availability_365,0.028193037306948433
+space_efficiency,0.020614415060608696
+property_type_frequency,0.009252876889078589
+availability_90,0.009002840160878801
+property_type_label,0.008615974438150304
+latitude,0.00853678507478853
+longitude,0.007773648044314612
+availability_60,0.007486797722054631
+neighbourhood_frequency,0.005589159852661605
+availability_30,0.004471164706932894
+room_type_Private room,0.0039003608385275194
+neighbourhood_label,0.0038445630190058156
+room_type_Entire home/apt,0.002671024865650888
+minimum_nights,0.0026447743370115804
+maximum_nights,0.002619257630135109
+host_is_superhost,0.0015817388367655497
+instant_bookable,0.0013945215098364716
+host_response_rate,0.00110980096853079
+host_identity_verified,0.00042496908142460385
+room_type_Shared room,3.800493182518186e-05

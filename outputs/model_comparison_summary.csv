@@ -1,7 +1,0 @@
-Model,Accuracy,F1-Score (Weighted),Precision (Weighted),Recall (Weighted)
-XGBoost,0.7725,0.7692,0.7705,0.7725
-Random Forest,0.7567,0.752,0.7559,0.7567
-MLP Classifier,0.7291,0.7263,0.7273,0.7291
-Logistic Regression,0.6661,0.6611,0.6625,0.6661
-SVM (RBF),0.5122,0.5053,0.5412,0.5122
-SVM (Linear),0.3854,0.3742,0.3803,0.3854
