@@ -1,3 +1,0 @@
-Method,Test_Accuracy,F1_Score,n_estimators,max_depth,learning_rate,subsample,colsample_bytree
-Week 2 (GridSearch),0.772533266382124,0.7701308283068068,200,6,0.1,0.8,0.8
-Week 3 (Bayesian Optimization),0.7504393673110721,0.7472129566259058,283,9,0.04642253097902413,0.8234273810179669,0.5277193751821015
