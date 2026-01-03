@@ -1,16 +1,15 @@
 
-DATA PREPROCESSING COMPLETED SUCCESSFULLY!
 ================================================================================
 
-ORIGINAL DATA:
+Original Data:
   - San Francisco: 7,780 listings
   - San Diego: 13,162 listings
   - Combined: 20,942 listings, 80 columns
 
-AFTER CLEANING:
+After Cleaning:
   - Final dataset: 19,912 listings, 73 columns
 
-TARGET VARIABLE:
+Target Variable:
   - Name: value_category
   - Classes: Poor_Value, Fair_Value, Excellent_Value
   - Based on FP Score = Rating / Price (measures value for money)
@@ -20,19 +19,15 @@ Fair_Value         6773
 Poor_Value         6571
 Excellent_Value    6568
 
-KEY STEPS PERFORMED:
-   Removed irrelevant columns (URLs, IDs, text descriptions)
-   Converted data types (price, percentages, booleans, dates)
-   Feature engineering (host_years, price_per_person, etc.)
-   Handled missing values (dropped >50% missing, imputed rest)
-   Removed outliers (price outliers using IQR method)
-   Created target variable (FP Score classification)
+Key Preprocessing Steps:
+  - Removed irrelevant columns (URLs, IDs, text descriptions)
+  - Converted data types (price, percentages, booleans, dates)
+  - Feature engineering (host_years, price_per_person, etc.)
+  - Handled missing values (dropped >50% missing, imputed rest)
+  - Removed outliers (price outliers using IQR method)
+  - Created target variable (FP Score classification)
 
- IMPORTANT - DATA LEAKAGE PREVENTION:
-  - This dataset contains review-based features (number_of_reviews, review_scores, etc.)
-  - These features were KEPT for creating the target variable (value_category)
-  - Task 1.5 will REMOVE review-based features from model input (X)
-  - Price MUST remain as a feature - cannot predict value without knowing price!
+
 
 OUTPUT FILES:
   - data/processed/listings_cleaned_with_target.csv
@@ -44,5 +39,4 @@ VISUALIZATIONS:
 
 
 ================================================================================
-Task 1.2 COMPLETED!
 ================================================================================

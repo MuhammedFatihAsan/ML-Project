@@ -1,5 +1,5 @@
 Variable,Original_Cardinality,Encoding_Method,Columns_Created,Feature_Type
-room_type,4,One-Hot,4,LANDLORD-CONTROLLED
-property_type,66,Label + Frequency,2,LANDLORD-CONTROLLED
-neighbourhood,138,Frequency + Label,2,LANDLORD-CONTROLLED
-value_category,3,Label (Ordinal),1,TARGET VARIABLE
+room_type,4,One-Hot,4,Landlord-controlled
+property_type,66,Label + Frequency,2,Landlord-controlled
+neighbourhood,138,Frequency + Label,2,Landlord-controlled
+value_category,3,Label (Ordinal),1,Target Variable
