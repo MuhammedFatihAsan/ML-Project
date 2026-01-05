@@ -41,112 +41,27 @@ This project analyzes Inside Airbnb datasets using Machine Learning techniques t
 
 ```
 ML-PROJECT/
-│
 ├── README.md
-├── .gitignore
-├── .gitattributes
-├── requirements.txt
-│
+├── requirements.txt                      # Necessary libraries
 ├── data/
-│   ├── raw/                              # Original data (not in Git)
+│   ├── raw/                             # Original Airbnb data
 │   │   ├── san_francisco.csv
 │   │   └── san_diego.csv
-│   │
 │   ├── processed/                        # Intermediate processed data
-│   │   ├── listings_cleaned_with_target.csv
-│   │   ├── listings_landlord_features_only.csv
-│   │   ├── listings_with_algebraic_features.csv
-│   │   ├── listings_with_categorical_encoding.csv
-│   │   ├── listings_with_geo_features.csv
-│   │   ├── listings_nlp_features.csv
-│   │   ├── nlp_scores.csv
-│   │   ├── word2vec_embeddings.csv
-│   │   ├── X_train_landlord.csv
-│   │   ├── X_test_landlord.csv
-│   │   ├── X_train_landlord_scaled.csv
-│   │   ├── X_test_landlord_scaled.csv
-│   │   ├── y_train_landlord.csv
-│   │   ├── y_test_landlord.csv
-│   │   ├── *_predictions.csv             # Model predictions
-│   │   ├── *_results.csv                 # Model results
-│   │   └── *_feature_importance.csv      # Feature importance files
-│   │
 │   └── finalized/                        # Final production data
-│       ├── final_data_with_nlp_score.csv
-│       └── numeric_final_data.csv
-│
 ├── notebooks/
-│   ├── Finalized/                        # Production-ready notebooks
-│   │   ├── data_finalPrep.ipynb
-│   │   └── final_model_with_NLP.ipynb
-│   │
-│   ├── Milestone-1/                            # Data Preparation & Feature Engineering
-│   │   ├── ofb_T1.1_data_prep.ipynb
-│   │   ├── ofb_T1.2_data_cleaning.ipynb
-│   │   ├── ofb_T1.3_algebraic_features.ipynb
-│   │   ├── ofb_T1.4_categorical_encoding.ipynb
-│   │   ├── ofb_T1.5_Feature_selection.ipynb
-│   │   ├── mfa_T1.7_T1.8_nlp_pipeline.ipynb
-│   │   ├── mfa_T1.9_T1.10_sentiment_features.ipynb
-│   │   ├── mfa_T1.11_T1.12_nlp_tfidf_NlpTablesMerge.ipynb
-│   │   ├── mfa_T1.TEST_NLP_Quality_Assurance.ipynb
-│   │   ├── eck_T1.13_define_target_variable.ipynb
-│   │   ├── eck_T1.14_eda_univariate.ipynb
-│   │   ├── eck_T1.15_eda_bivariate.ipynb
-│   │   ├── eck_T1.16_geographic_analysis.ipynb
-│   │   ├── eck_T1.17_class_distribution_analysis.ipynb
-│   │   └── eck_T1.18_EDA_Report.ipynb
-│   │
+│   ├── Milestone-1/                      # Data Preparation & Feature Engineering
 │   ├── Milestone-2/                      # Model Development
-│   │   ├── ofb_T2.1_logistic_regression.ipynb
-│   │   ├── ofb_T2.2_random_forest.ipynb
-│   │   ├── ofb_T2.3_xgboost.ipynb
-│   │   ├── ofb_T2.4_svm.ipynb
-│   │   ├── ofb_T2.5_MLP_Classifier.ipynb
-│   │   ├── ofb_T2.6_Final_Model_Selection.ipynb
-│   │   ├── mfa_Unsupervised-Learning-Models.ipynb
-│   │   └── Ensemble & Evaluation.ipynb
-│   │
 │   └── Milestone-3/                      # Advanced Techniques
-│       ├── mfa_Advanced_NLP-AND-Feature_Engineering.ipynb
-│       ├── numeric_data.ipynb
-│       └── Detailed_Report.ipynb
-│
+│   ├── Finalized/                        
+│   │   ├── data_finalPrep.ipynb          # Milestone-1 Combined Tasks
+│   │   └── version1_final_model_with_NLP.ipynb      # Final model V1
+│   │   └── version2_final_model.ipynb               # Final model V2
 ├── models/                               # Trained models
-│   ├── logistic_regression_landlord.pkl
-│   ├── random_forest_model.pkl
-│   ├── xgboost_model.pkl
-│   ├── xgboost_bayesian_optimized.pkl
-│   ├── svm_linear_model.pkl
-│   ├── svm_rbf_model.pkl
-│   ├── best_mlp_model.pkl
-│   ├── standard_scaler.pkl
-│   └── standard_scaler_landlord.pkl
-│
 ├── outputs/
 │   ├── figures/                          # Visualizations
-│   │   ├── algebraic_features_*.png
-│   │   ├── bivariate_*.png
-│   │   ├── eda_*.png
-│   │   ├── correlation_heatmap_landlord.png
-│   │   ├── model_comparison_landlord_features.png
-│   │   ├── mlp_learning_curve.png
-│   │   ├── geo_price_heatmap.png
-│   │   └── ...
-│   │
-│   └── reports/                          # Generated reports
-│       ├── feature_reconstruction_report.txt
-│       ├── landlord_feature_names.txt
-│       ├── T1.2_preprocessing_summary.txt
-│       ├── T1.3_algebraic_features_summary.txt
-│       ├── T1.4_categorical_encoding_summary.txt
-│       ├── model_comparison_summary_landlord.csv
-│       ├── EDA_Executive_Summary.md
-│       └── *_encoding_map.csv
-│
-├── src/                                  # Source code modules
-├── references/                           # Documentation & notes
-└── venv/                                 # Virtual environment (not in Git)
+│   └── reports/
+
 ```
 
 ---
@@ -173,12 +88,8 @@ Review-based features are used **only for creating labels**, not as model inputs
 | MLP Classifier | ~95% | ~0.95 | Supervised |
 | SVM (RBF) | ~92% | ~0.93 | Supervised |
 | Logistic Regression | ~95% | ~0.95 | Supervised |
-| K-Means | - | - | Unsupervised |
-| DBSCAN | - | - | Unsupervised |
-| GMM | - | - | Unsupervised |
 
 ---
-
 ## Key Features 
 
 Selected features available to hosts before receiving reviews:
